@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: raleway,montserrat;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #e7e7e7;
+  text-align: left;
+  background-color: #2f3438;
+}
+
+.jumbotron h1 {
+  color: rgb(177,175,175);
+}
+
+.jumbotron {
+  background-color: transparent;
+  text-align: center;
+}
+
+#jumbo_btn {
+  background-color: transparent;
+  border-color: rgb(228,226,226);
+  padding: 10px 30px 10px 30px;
+  font-family: montserrat;
+  font-size: 20px;
+  border-radius: 0px;
+}
+
+#jumbo_btn:hover {
+  background-color: rgba(128,205,128,0.75);
+}
+
+.jumbotron #intro_text strong {
+  color: rgb(209,75,99);
+}
+
+#works_heading {
+  text-align: center;
+  padding: 40px;
+  text-transform: uppercase;
+  font-family: montserrat;
+}
+
+#contact {
+  text-align: center;
+  padding: 40px;
+  text-transform: uppercase;
+  font-family: montserrat;
+}
+
+.section_headers {
+  padding: 40px;
+  font-family: montserrat;
+}
+
+.nav-link {
+  display: block;
+  padding: .5rem 1rem;
+  font-family: montserrat;
+}
+
+.col-md-4 .mb-lg-0 {
+  margin: 0px;
+}
+
+#heading {
+  padding: 40px;
+  font-size: 31px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#about {
+  text-align: center;
+}
+
+#about .item i {
+  font-size: 60px;
+  color: #d14b63;
+  border: transparent;
+  padding: 20px 50px 20px 50px;
+}
+
+#about .item h2 {
+  padding: 27px 0px 3px 0px;
+  font-weight: bold;
+}
+
+#about .item p {
+  font-size: 19px;
+}
+
+#about .item:hover {
+  cursor: pointer;
+}
+
+#row-1 {
+  margin-bottom: 70px;
+}
+
+.card-body {
+  color: rgb(43,42,42);
+}
+
+@media (min-width: 576px) {
+  .jumbotron {
+    padding: 60px;
+  }
+}
+
+#about #heading {
+  padding-top: 10px;
+}
+
+#about #prof-pic {
+  border: 5px solid rgb(189,72,94);
+  border-radius: 50%;
+  width: 20%;
+  height: 20%;
+  margin-bottom: 20px;
+}
+
+.skillset i {
+  font-size: 40px;
+}
+
+#skillset .row .col-sm-3 {
+  padding: 40px;
+}
+
